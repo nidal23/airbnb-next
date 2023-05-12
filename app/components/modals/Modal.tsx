@@ -147,6 +147,7 @@ const Modal: React.FC<ModalProps> = ({
                     w-full
                   "
                 >
+                  {" "}
                   {secondaryAction && secondaryActionLabel && (
                     <Button
                       disabled={disabled}
@@ -161,6 +162,7 @@ const Modal: React.FC<ModalProps> = ({
                     onClick={handleSubmit}
                   />
                 </div>
+                {footer}
               </div>
             </div>
           </div>
